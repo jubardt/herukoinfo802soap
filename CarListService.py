@@ -8,7 +8,7 @@ class CarListService(ServiceBase):
 
     @rpc(_returns=AnyDict)
     def carList(ctx):
-        return {"Peugeot206": [20,480], "TeslaX": [65,40], "VolkswageneUp":[10,500], "VolvoEmbla":[95,10], "LucideAirDream": [80,60]}
+        return {"Peugeot206": [500,200], "TeslaX": [780,150], "VolkswageneUp":[180,50], "VolvoEmbla":[320,40], "LucideAirDream": [250,60]}
 
 
 
